@@ -45,4 +45,13 @@ tts.tts_to_file(
 )
 # Needs 28 seconds, real time factor 0.66
 
+print(timediff(), "Generating ru ...")
+tts.tts_to_file(
+    text="Для России характерны самые разнообразные типы и формы рельефа, встречающиеся в природе. Господствующим типом рельефа, занимающим почти ¾ территории страны, являются равнины. Особенно выделяются Восточно-Европейская и Западно-Сибирская – крупнейшие равнины земного шара.", 
+    speaker_wav="KITT.wav", 
+    language="ru", 
+    file_path="output_ru.wav"
+)
+# Needs 12 seconds, real time factor 0.51
+
 print(timediff(), "DONE")
