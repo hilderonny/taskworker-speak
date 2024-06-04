@@ -54,4 +54,13 @@ tts.tts_to_file(
 )
 # Needs 12 seconds, real time factor 0.51
 
+print(timediff(), "Generating pt ...")
+tts.tts_to_file(
+    text="Indexador e Processador de Evidências Digitais", 
+    speaker_wav="KITT.wav", 
+    language="pt", 
+    file_path="output_pt.wav"
+)
+# Needs 28 seconds, real time factor 0.66
+
 print(timediff(), "DONE")
