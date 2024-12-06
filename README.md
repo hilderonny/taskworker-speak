@@ -2,6 +2,16 @@
 
 ## Installation
 
+### MacOS
+
+Install python 3.11.
+
+```sh
+python3.11 -m venv python-venv
+source python-venv/bin/activate
+pip install pyttsx3
+```
+
 https://stackoverflow.com/questions/64261546/how-to-solve-error-microsoft-visual-c-14-0-or-greater-is-required-when-inst
 
 Model: C:\Users\XXXXXX\AppData\Local\tts\tts_models--multilingual--multi-dataset--xtts_v2
