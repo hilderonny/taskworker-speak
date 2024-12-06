@@ -9,6 +9,21 @@ Next install Python 3.9 (CoquiTTS requires >=3.8 <3.11)
 
 ### Windows
 
+
+https://stackoverflow.com/questions/66726331/how-can-i-run-mozilla-tts-coqui-tts-training-with-cuda-on-a-windows-system
+
+
+1. Install Python 3.8 (Other do not work)
+
+```sh
+pip install numpy Cython
+pip install TTS
+```
+
+
+
+
+
 ```sh
 pip install git+https://github.com/coqui-ai/TTS  # from Github
 
