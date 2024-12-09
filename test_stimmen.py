@@ -67,4 +67,12 @@ tts.tts_to_file(
     file_path="output_WILLIS.wav"
 )
 
+print(timediff(), "SPONGEBOB ...")
+tts.tts_to_file(
+    text="In Deggendorf in Niederbayern ist wegen des Hochwassers ein Passagierschiff evakuiert worden. Mehr als 140 Menschen würden seit den Mittagsstunden vom Schiff gebracht, sagte eine Sprecherin des Landratsamts am Montag. Wegen des Hochwassers an der Donau könne das Schiff nicht weiterreisen. Bei den Passagieren handle es sich überwiegend um ältere Menschen. Es gebe aber bislang keinen medizinischen Notfall an Bord, hieß es weiter. Boote waren im Einsatz, um die Menschen an Land zu bringen.", 
+    speaker_wav="SPONGEBOB.wav", 
+    language="de", 
+    file_path="output_SPONGEBOB.wav"
+)
+
 print(timediff(), "DONE")
